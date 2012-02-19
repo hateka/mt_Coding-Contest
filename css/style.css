@@ -140,6 +140,8 @@ form{
     margin:35px 0 0 0;
 }
 
+
+
 #topcontent_img figure{
     width:210px;
     float:left;
@@ -188,7 +190,7 @@ form{
 
 #content02{
     width:960px;
-    margin:40px 0 0 0;
+    margin:0px 0 0 0;
 }
 
 .elem{
@@ -197,15 +199,42 @@ form{
     padding:0 25px;
 }
 
+.elem:after{
+    content: ""; 
+    display: block; 
+    clear: both
+}
+
+.wrapcontent:before{
+    content: ""; 
+    display: block; 
+    clear: both
+}
+
+.wrapcontent h2{
+    width:900px;
+    margin:20 auto;
+    background-color:#DBE6EC;
+    -moz-border-radius-topleft:10px;
+    padding:5px 20px;
+    font-size:13px;
+}
+
 .license{
     width:285px;
     float:left;
     margin:20px 25px 25px 0;
-    font-size:13px;
+    font-size:12px;
 }
 
-.license p{
-    padding:0 0 0 10px;
+.morelicense{
+    text-align:right;
+    display:block;
+    margin:40px 0 0 0;
+}
+
+#glicense{
+    background-color:#DCE7DA;
 }
 
 .for{
@@ -213,10 +242,39 @@ form{
     height:20px;
     font-size:11px;
     line-height:20px;
+    padding:0 0 0 10px;
 }
 
-.cap{
-    margin:10px 0 0 0;
+#gfor{
+    background-color:#E7EFE6;
+    height:20px;
+    font-size:11px;
+    line-height:20px;
+    padding:0 0 0 10px;
+}
+
+p.cap{
+    padding:10px;
+    background:-moz-linear-gradient(top,#F3F7F6,#E6EEF2);
+}
+
+#gcap{
+    padding:10px;
+    background:-moz-linear-gradient(top,#F3F7F3,#E7EFE6);
+}
+
+p.price{
+    background-color:#E6EEF2;
+    border-top:solid 1px #ffffff;
+    padding:5px 10px;
+    min-height:33px;
+}
+
+#gprice{
+    background-color:#E7EFE6;
+    border-top:solid 1px #ffffff;
+    padding:5px 10px;
+    min-height:33px;
 }
 
 .license h3{
