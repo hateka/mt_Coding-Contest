@@ -27,7 +27,12 @@ body{
 #wrap header#menu{
     margin:0 auto;
     height:69px;
-    padding:20px 0 0 0;
+    padding:15px 0 0 0;
+}
+
+#wrap header#menu a{
+    color:#ffffff;
+    text-decoration:none;
 }
 
 #wrap header#menu:before{
@@ -82,6 +87,14 @@ nav ul li{
     margin:5px 0 0 5px;
     display:block;
     -moz-border-radius: 4px;
+    background:-moz-linear-gradient(
+	                top,
+		#3E6A7A,
+		#323D3A
+	);
+}
+
+nav ul li:hover{
     background:-moz-linear-gradient(
 	                top,
 		#407389,
@@ -205,6 +218,10 @@ form{
     clear: both
 }
 
+.wrapcontent header{
+    #margin:35px 0 0 0;
+}
+
 .wrapcontent:before{
     content: ""; 
     display: block; 
@@ -213,17 +230,17 @@ form{
 
 .wrapcontent h2{
     width:900px;
-    margin:20 auto;
+    margin:35px 0 0 10px;
     background-color:#DBE6EC;
     -moz-border-radius-topleft:10px;
-    padding:5px 20px;
+    padding:5px 20px 5px 10px;
     font-size:13px;
 }
 
 .license{
     width:285px;
     float:left;
-    margin:20px 25px 25px 0;
+    margin:15px 25px 0 0;
     font-size:12px;
 }
 
@@ -267,7 +284,8 @@ p.price{
     background-color:#E6EEF2;
     border-top:solid 1px #ffffff;
     padding:5px 10px;
-    min-height:33px;
+    min-height:43px;
+    line-height:20px;
 }
 
 #gprice{
@@ -510,4 +528,14 @@ footer figcaption:after{
 footer p{
     text-align:right;
     font-size:10px;
+}
+
+#download{
+    width:180px;
+    background:-moz-linear-gradient(center top,#EDEDED,#C1C1C1);
+    border:solid 1px #cccccc;
+    font-size:14px;
+    padding:5px 0 5px 35px;
+    margin:25px auto 0 auto;
+    display:block;
 }
