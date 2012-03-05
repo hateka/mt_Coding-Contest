@@ -41,7 +41,7 @@ p{
 }
 
 .clearfix:after,.wrapcontent:before{
-    content: ""; 
+    content: "";
     display: block; 
     clear: both;
 }
@@ -217,7 +217,7 @@ form{
 
 .elem{
     width:912px;
-    padding:0 25px;
+    padding:0 0 0 25px;
 }
 
 .wrapcontent h2{
@@ -283,7 +283,7 @@ p.price{
     background-color:#E6EEF2;
     border-top:solid 1px #ffffff;
     padding:5px 10px;
-    min-height:43px;
+    min-height:40px;
     line-height:20px;
 }
 
@@ -291,7 +291,6 @@ p.price{
     background-color:#E7EFE6;
     border-top:solid 1px #ffffff;
     padding:5px 10px;
-    min-height:33px;
 }
 
 .license h3{
@@ -367,7 +366,7 @@ p.price{
   background-color:#9B9B9B;
 }
 
-.bgcolor{
+dt.bgcolor:nth-child(1n),dd.bgcolor:nth-child(1n){
     background-color:#F3F8FB;
 }
 
